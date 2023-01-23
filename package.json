@@ -1,0 +1,15 @@
+{
+  "name": "web_cypress_cardtest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "testE2E": "cypress run --spec cypress/e2e/test_web.cy.js --browser chrome"
+  },
+  "author": "lmindiola",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  }
+}
